@@ -5,7 +5,7 @@ categories: [Travel]
 date: 2025-10-05
 ---
 
-## 🏞️ 萬里 Half-day Trip
+## 🏞️ 東北角 Half-day Trip
 
 
 ---

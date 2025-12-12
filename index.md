@@ -8,9 +8,13 @@ I will update my life experience here.
 
 ## 📚 Recent Posts
 
+<ul class="post-list">
 {% for p in site.posts limit:10 %}
-- 📌 [{{ p.title }}]({{ p.url | relative_url }})  
-  <small>Category: <code>{% if p.categories %}{{ p.categories | join: ', ' }}{% else %}Uncategorized{% endif %}</code></small>
+  <li>
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    <span class="post-cat">{{ p.categories | join: ", " }}</span>
+  </li>
 {% endfor %}
+</ul>
 
 [Browse by category →]({{ '/categories/' | relative_url }})

@@ -4,42 +4,52 @@ title: "Categories"
 permalink: /categories/
 ---
 
-{% assign my_pages = site.posts %}
-
-{% assign all_cats = "" | split: "" %}
-{% for p in my_pages %}
-{% if p.categories %}
-{% for c in p.categories %}
-{% assign all_cats = all_cats | push: c %}
-{% endfor %}
-{% endif %}
-{% endfor %}
-{% assign uniq_cats = all_cats | uniq | sort %}
+{% assign posts = site.posts %}
 
 # 🗂️ Categories
 
-{% capture cats_md %}
-{% for c in uniq_cats %}
-- [{{ c }}](#{{ c | slugify }})
-{% endfor %}
-{% endcapture %}
+<!-- ===============================
+     Category Index
+     =============================== -->
 
-{{ cats_md | markdownify }}
+{% assign all_cats = "" | split: "" %}
+{% for p in posts %}
+  {% if p.categories %}
+    {% for c in p.categories %}
+      {% assign all_cats = all_cats | push: c %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign uniq_cats = all_cats | uniq | sort %}
+
+<ul>
+{% for c in uniq_cats %}
+  <li>📁 <a href="#{{ c | slugify }}">{{ c }}</a></li>
+{% endfor %}
+</ul>
 
 ---
 
+<!-- ===============================
+     Category Sections
+     =============================== -->
+
 {% for c in uniq_cats %}
 
-### {{ c }}
+## {{ c }}
 
-{% capture list_md %}
-{% for p in my_pages %}
-{% if p.categories and p.categories contains c %}
-- 📌 [{{ p.title }}]({{ p.url | relative_url }})
-{% endif %}
+<ul>
+{% for p in posts %}
+  {% if p.categories and p.categories contains c %}
+    <li>
+      📌 <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      <span style="color:#888; font-size:0.85em;">
+        ({{ p.date | date: "%Y-%m-%d" }})
+      </span>
+    </li>
+  {% endif %}
 {% endfor %}
-{% endcapture %}
-
-{{ list_md | markdownify }}
+</ul>
 
 {% endfor %}

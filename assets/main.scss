@@ -1,22 +1,151 @@
----
----
+/* =========================================================
+   Global
+   ========================================================= */
 
-@import "minima"; // 讓主題樣式先載入，再覆蓋
-
-.page .page-header { margin-bottom: 1.25rem; }
-.page .page-title {
-  font-size: 2.8rem;   // 你可以改成 3rem、3.5rem，看你喜歡
-  font-weight: 400;    // Regular
-  margin-bottom: .2rem;
+body {
+  line-height: 1.7;
+  color: #222;
 }
 
-.page .page-meta {
-  display: flex; align-items: center; gap: .5rem;
-  font-size: .95rem; color: #6b7280; /* gray-500 */
-  background: #f3f4f6;               /* gray-100 */
-  border: 1px solid #e5e7eb;         /* gray-200 */
-  padding: .375rem .625rem; border-radius: .5rem;
-  width: fit-content;
+a {
+  color: inherit;
+  text-decoration: none;
 }
-.page .page-meta .cal-emoji { line-height: 1; }
-.page .page-meta .dot { opacity: .6; margin: 0 .125rem; }
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   Page / Post Header
+   ========================================================= */
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.page-meta {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.page-meta .dot {
+  margin: 0 0.4rem;
+}
+
+.page-meta .cats {
+  font-style: italic;
+}
+
+
+/* =========================================================
+   Gallery (Travel Photos)
+   ========================================================= */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+  margin: 1.5rem 0 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+
+/* =========================================================
+   Content Boxes (Notes / Info)
+   ========================================================= */
+
+.note-box,
+.info-box {
+  background: #fafafa;
+  border-left: 4px solid #6fa8dc;
+  padding: 1rem 1.2rem;
+  margin: 1.8rem 0;
+  border-radius: 8px;
+}
+
+.note-box h3,
+.info-box h3 {
+  margin-top: 0;
+}
+
+
+/* =========================================================
+   Post Content
+   ========================================================= */
+
+.page-content h2,
+.page-content h3 {
+  margin-top: 2rem;
+}
+
+.page-content ul {
+  padding-left: 1.2rem;
+}
+
+
+/* =========================================================
+   Home Page - Recent Posts
+   ========================================================= */
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 2rem;
+}
+
+.post-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.post-list a {
+  font-weight: 500;
+}
+
+.post-cat {
+  margin-left: 0.6rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+
+/* =========================================================
+   Categories Page
+   ========================================================= */
+
+h3 {
+  margin-top: 2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #eee;
+}
+
+
+/* =========================================================
+   Responsive Tweaks
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 1.8rem;
+  }
+}

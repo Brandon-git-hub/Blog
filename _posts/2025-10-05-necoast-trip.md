@@ -29,15 +29,20 @@ date: 2025-10-05
   <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_093010239.jpg' | relative_url }}" width="700">
 </div>
 
----
+
+<div class="note-box">
 
 ### 📝 Notes
 與家人的半日旅行。  
 
----
+</div>
+
+<div class="info-box">
 
 ### 📚 Info
 - 📍 鼻頭角步道
 - ☕ 聽濤 Cafe
 - 🍜 龜吼漁港
 - 🚗 自駕
+
+</div>

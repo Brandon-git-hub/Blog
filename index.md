@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Brandon's Blog"
+title: "Home Page"
 ---
 
 Welcome to my blog！  

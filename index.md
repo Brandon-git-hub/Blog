@@ -14,7 +14,8 @@ I will update my life experience here.
 %}
 
 <ul class="post-list">
-{% for p in site.posts limit:10 %}
+{% assign posts = site.posts | sort: "date" | reverse %}
+{% for p in posts limit:10 %}
 
   {% assign icon = "📁" %}
   {% if p.categories %}

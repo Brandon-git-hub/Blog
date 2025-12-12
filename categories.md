@@ -4,7 +4,7 @@ title: "Categories"
 permalink: /categories/
 ---
 
-{% assign posts = site.posts %}
+{% assign posts = site.posts | sort: "date" | reverse %}
 
 <!-- ===============================
      Category Index (Card / Chip style)

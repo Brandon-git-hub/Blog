@@ -23,6 +23,11 @@ date: 2025-10-05
   <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_080033332.jpg' | relative_url }}" width="700">
   <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_093010239.jpg" width="700"> -->
   <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_093010239.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/1759738576094.jpg" width="700"> -->
+  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/1759738576094.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/1759738588639.jpg" width="700"> -->
+  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/1759738588639.jpg' | relative_url }}" width="700">
 </div>
 
 
@@ -36,7 +41,7 @@ date: 2025-10-05
 <div class="info-box" markdown="1">
 
 ### 📚 Info
-- 📍 鼻頭角步道
+- 📍 鼻頭角公園
 - ☕ 聽濤 Cafe
 - 🍜 龜吼漁港
 - 🚗 自駕

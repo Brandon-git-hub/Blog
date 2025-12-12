@@ -9,7 +9,7 @@ permalink: /categories/
 # 🗂️ Categories
 
 <!-- ===============================
-     Category Index
+     Category Index (Card / Chip style)
      =============================== -->
 
 {% assign all_cats = "" | split: "" %}
@@ -23,9 +23,29 @@ permalink: /categories/
 
 {% assign uniq_cats = all_cats | uniq | sort %}
 
-<ul>
+{% assign icon_map =
+  "Travel:🏞️,Sea:🌊,Hiking:🥾,Cafe:☕,City:🏙️,Photography:📸,Life:🧳"
+  | split: ","
+%}
+
+<ul class="cat-index">
 {% for c in uniq_cats %}
-  <li>📁 <a href="#{{ c | slugify }}">{{ c }}</a></li>
+
+  {% assign icon = "📁" %}
+  {% for pair in icon_map %}
+    {% assign kv = pair | split: ":" %}
+    {% if kv[0] == c %}
+      {% assign icon = kv[1] %}
+    {% endif %}
+  {% endfor %}
+
+  <li class="cat-chip">
+    <a href="#{{ c | slugify }}">
+      <span class="cat-emoji" aria-hidden="true">{{ icon }}</span>
+      <span class="cat-name">{{ c }}</span>
+    </a>
+  </li>
+
 {% endfor %}
 </ul>
 
@@ -37,16 +57,22 @@ permalink: /categories/
 
 {% for c in uniq_cats %}
 
-## {{ c }}
+  {% assign icon = "📁" %}
+  {% for pair in icon_map %}
+    {% assign kv = pair | split: ":" %}
+    {% if kv[0] == c %}
+      {% assign icon = kv[1] %}
+    {% endif %}
+  {% endfor %}
 
-<ul>
+## {{ icon }} {{ c }}
+
+<ul class="cat-post-list">
 {% for p in posts %}
   {% if p.categories and p.categories contains c %}
     <li>
       📌 <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-      <span style="color:#888; font-size:0.85em;">
-        ({{ p.date | date: "%Y-%m-%d" }})
-      </span>
+      <span class="post-date">({{ p.date | date: "%Y-%m-%d" }})</span>
     </li>
   {% endif %}
 {% endfor %}

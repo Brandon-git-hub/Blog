@@ -6,8 +6,6 @@ permalink: /categories/
 
 {% assign posts = site.posts %}
 
-# 🗂️ Categories
-
 <!-- ===============================
      Category Index (Card / Chip style)
      =============================== -->

@@ -5,10 +5,6 @@ categories: [Travel]
 date: 2025-10-05
 ---
 
-## 🏞️ 東北角 Half-day Trip
-
-
----
 
 ### 📸 Gallery
 
@@ -30,14 +26,14 @@ date: 2025-10-05
 </div>
 
 
-<div class="note-box">
+<div class="note-box" markdown="1">
 
 ### 📝 Notes
 與家人的半日旅行。  
 
 </div>
 
-<div class="info-box">
+<div class="info-box" markdown="1">
 
 ### 📚 Info
 - 📍 鼻頭角步道

@@ -4,7 +4,7 @@ title: "Categories"
 permalink: /categories/
 ---
 
-{% assign my_pages = site.pages | where_exp: "p", "p.path contains '_posts/'" %}
+{% assign my_pages = site.posts %}
 
 {% assign all_cats = "" | split: "" %}
 {% for p in my_pages %}

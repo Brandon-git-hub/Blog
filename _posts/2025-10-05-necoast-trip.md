@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "My first day"
+layout: post
+title: "東北角 Half-day Trip"
 categories: [Travel]
 date: 2025-10-05
 ---

@@ -9,14 +9,14 @@ date: 2025-12-07
 ### 📸 Gallery
 
 <div class="gallery">
-  <!-- <img src="../assets/travel_2025/Litoushan_2512/PXL_20251207_065739999.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Litoushan_2512/PXL_20251207_065739999.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Litoushan_2512/PXL_20251207_065750572.MP.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Litoushan_2512/PXL_20251207_065750572.MP.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Litoushan_2512/PXL_20251207_065810025.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Litoushan_2512/PXL_20251207_065810025.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Litoushan_2512/PXL_20251207_071423131.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Litoushan_2512/PXL_20251207_071423131.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Litoushan_2512/PXL_20251207_065739999.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Litoushan_2512/PXL_20251207_065739999.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Litoushan_2512/PXL_20251207_065750572.MP.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Litoushan_2512/PXL_20251207_065750572.MP.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Litoushan_2512/PXL_20251207_065810025.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Litoushan_2512/PXL_20251207_065810025.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Litoushan_2512/PXL_20251207_071423131.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Litoushan_2512/PXL_20251207_071423131.jpg' | relative_url }}" width="700">
 </div>
 
 

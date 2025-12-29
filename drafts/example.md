@@ -9,8 +9,8 @@ date: 2025-10-05
 ### 📸 Gallery
 
 <div class="gallery">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/1759738588639.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/1759738588639.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/1759738588639.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/1759738588639.jpg' | relative_url }}" width="700">
 </div>
 
 

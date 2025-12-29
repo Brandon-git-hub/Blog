@@ -9,8 +9,8 @@ date: 2025-11-08
 ### 📸 Gallery
 
 <div class="gallery">
-  <!-- <img src="../assets/travel_2025/Fei_Feng_Shan_2511/PXL_20251108_075501672.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Fei_Feng_Shan_2511/PXL_20251108_075501672.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Fei_Feng_Shan_2511/PXL_20251108_075501672.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Fei_Feng_Shan_2511/PXL_20251108_075501672.jpg' | relative_url }}" width="700">
 </div>
 
 

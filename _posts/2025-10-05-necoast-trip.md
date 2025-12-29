@@ -9,25 +9,25 @@ date: 2025-10-05
 ### 📸 Gallery
 
 <div class="gallery">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_073221189.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_073221189.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_073235088.MP.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_073235088.MP.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_073241546.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_073241546.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_075039766.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_075039766.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_075341736.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_075341736.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_080033332.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_080033332.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_093010239.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/PXL_20251005_093010239.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_073221189.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_073221189.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_073235088.MP.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_073235088.MP.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_073241546.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_073241546.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_075039766.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_075039766.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_075341736.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_075341736.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_080033332.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_080033332.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_093010239.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/PXL_20251005_093010239.jpg' | relative_url }}" width="700">
 
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/1759738576094.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/1759738576094.jpg' | relative_url }}" width="700">
-  <!-- <img src="../assets/travel_2025/Wanli_Half-day_Trip/1759738588639.jpg" width="700"> -->
-  <img src="{{ '/assets/travel_2025/Wanli_Half-day_Trip/1759738588639.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/1759738576094.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/1759738576094.jpg' | relative_url }}" width="700">
+  <!-- <img src="../assets/2025_photos/Wanli_Half-day_Trip/1759738588639.jpg" width="700"> -->
+  <img src="{{ '/assets/2025_photos/Wanli_Half-day_Trip/1759738588639.jpg' | relative_url }}" width="700">
 </div>
 
 

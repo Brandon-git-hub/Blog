@@ -12,8 +12,64 @@ date: 2026-03-15
 
   <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_072318154.MP.jpg" width="700"> -->
   <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_072318154.MP.jpg' | relative_url }}" width="700">
-  
-  
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_072532619.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_072532619.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_072848330.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_072848330.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073016461.MP.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073016461.MP.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073021699.MP.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073021699.MP.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073625350.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073625350.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073707430.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073707430.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073712126.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073712126.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073742340.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073742340.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073813648.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073813648.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073948053.MP.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_073948053.MP.jpg' | relative_url }}" width="700">
+
+  <!-- <img src="../assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_074238653.jpg" width="700"> -->
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_074238653.jpg' | relative_url }}" width="700">
+
+
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_074245916.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_074415606.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_074630047.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_074708741.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_075103167.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_075158876.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_075207090.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_075220383.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_075303518.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_075331769.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_075956568.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_080142676.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_080324686.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_080333977.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_080721900.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_080957478.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_081033663.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_081038158.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_081042388.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_081105157.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_081403467.MP.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_083207210.jpg' | relative_url }}" width="700">
+  <img src="{{ '/assets/2026_photos/Litousan_Hiking_260315/PXL_20260315_083956308.jpg' | relative_url }}" width="700">
 </div>
 
 

@@ -25,7 +25,7 @@ date: 2026-01-17
 
 ### 📚 Info
 - 🏔️ 桃園虎頭山
-- ☕ [浮島虎山 | Söt Café Bistronömy](https://maps.app.goo.gl/4M3FQk4bP3PLNcqR6)
+- ☕ [浮島虎山](https://maps.app.goo.gl/4M3FQk4bP3PLNcqR6)
 - 🌄 [虎頭山環保公園](https://maps.app.goo.gl/AmjTiLP8YDbbA4Yb8)
 - 🚗 自駕
 </div>

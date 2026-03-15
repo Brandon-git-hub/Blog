@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "🔎 Run Gemini CLI",
+            "type": "shell",
+            "command": "conda run --no-capture-output -n gemini-cli gemini",
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true, 
+                "echo": true,
+                "close": false
+            },
+            "problemMatcher": [],
+            "detail": "Launch the Gemini CLI in a new interactive terminal."
+        }
+    ]
+}
